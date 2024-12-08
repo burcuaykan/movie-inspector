@@ -1,0 +1,34 @@
+#search-row {
+  background-color: #3b3b4a;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 2rem;
+
+  .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #e87408;
+  }
+  .MuiOutlinedInput-notchedOutline {
+    border-radius: 1.5rem;
+  }
+  .MuiFormControl-root {
+    width: -webkit-fill-available;
+  }
+  input,
+  .MuiSelect-select {
+    color: #e9e9e9;
+  }
+  label {
+    color: #e9e9e9;
+    background-color: #3b3b4a;
+    padding: 0.2rem;
+    border-radius: 2rem;
+  }
+}
+.MuiPopover-paper.MuiMenu-paper.MuiMenu-paper {
+  background-color: #ccc;
+}
